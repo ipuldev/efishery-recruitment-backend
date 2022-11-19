@@ -40,7 +40,7 @@ func main() {
 		Handler: routes,
 	}
 
-	log.Println(viper.GetString("server.port"))
+	fmt.Println("Fetch service listening on port ", viper.GetString("server.port"))
 	err = serverConfig.ListenAndServe()
 	if err != nil {
 		log.Fatal(err)
