@@ -37,7 +37,7 @@ Detail Structure Project :
     * Aggregate
 
 More Detail about architecture program:
-_Figma [Figma][Design-url]_
+_Figma [Figjam Design][Design-url]_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
