@@ -4,7 +4,8 @@
   "description": "Authentication service for commodity applications",
   "main": "./cmd/main.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "webpack --watch"
   },
   "repository": {
     "type": "git",

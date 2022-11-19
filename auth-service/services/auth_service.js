@@ -79,6 +79,14 @@ function Authorize(req,res) {
         })
         return
     }
+
+    let forwardUri = req.headers["x-forwarded-uri"];
+    if (forwardUri && forwardUri == '/commodities/aggregate' && decoded["role"] != "admin") {
+        res.status(400).json({
+            message: "Sorry you don't have access to this page"
+        })
+        return
+    }
  
     res.status(200).json({
         message: "JWT token Is valid",
