@@ -20,7 +20,7 @@ describe('Register', () => {
     testTable.forEach(res => {
         test(res.name, async () => {
             await request(app)
-            .post("/register")
+            .post("/auth/register")
             .send(res.params)
             .expect(res.expected)
         });    
@@ -42,7 +42,7 @@ describe('Login', () => {
     testTable.forEach(res => {
         test(res.name, async () => {
             await request(app)
-            .post("/login")
+            .post("/auth/login")
             .send(res.params)
             .expect(res.expected)
         });    
@@ -61,7 +61,7 @@ describe('Authorize', () => {
     testTable.forEach(res => {
         test(res.name, async () => {
             await request(app)
-            .get(`/authorize?token=${res.params}`)
+            .get(`/auth/authorize?token=${res.params}`)
             .send(res.params)
             .expect(res.expected)
         });    
