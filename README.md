@@ -26,7 +26,7 @@ Efishery commodities is provide authentication & commodities data service
 Detail Structure Project :
 * Auth Service
   * Database:
-    * [![Postgresql][Postgresql.com]][Postgresql-url]
+    * SQLite
   * Routing:
     * Login
     * Authorize
@@ -37,8 +37,7 @@ Detail Structure Project :
     * Aggregate
 
 More Detail about architecture program:
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FoVnEMhG7Y6BAq5VXbHYT4r%2Fefishery-reqruitment-design-backend%3Fnode-id%3D0%253A1%26t%3Dn5IwguYSyDga205K-1" allowfullscreen></iframe>
-
+_Figma [Figma][Design-url]_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -96,7 +95,7 @@ _Postman [Documentation](https://postman.com/belivine/workspace/efishery-backend
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [linkedin-url]: https://www.linkedin.com/in/muhammad-saiful-abdulah-079545186/
-[Design-url]:https://www.figma.com/file/JrLuk8F8CwUI7QUBTkSh3G/Microservices-Docker?node-id=0%3A1
+[Design-url]:https://www.figma.com/file/oVnEMhG7Y6BAq5VXbHYT4r/efishery-reqruitment-design-backend?node-id=0%3A1&t=n5IwguYSyDga205K-1
 [GO.com]:https://img.shields.io/badge/GO%201.19-0769AD?style=flat&logo=go&logoColor=white
 [GO-Url]:https://go.dev/
 [Docker.com]:https://img.shields.io/badge/docker-003f8c?style=flat&logo=docker&logoColor=white
