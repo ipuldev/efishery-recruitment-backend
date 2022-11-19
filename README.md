@@ -71,7 +71,7 @@ Testing module
     - `npm test`
 
   - Fetch service
-    - `go test./... -v`
+    - `go test ./... -v`
 
 For more information 
 
