@@ -1,0 +1,13 @@
+{
+  "commodities" : {
+    "url": "https://stein.efishery.com/v1/storages/5e1edf521073e315924ceab4/list"
+  },
+  "server" :{
+    "port": 9000
+  },
+  "helper":{
+    "currency": {
+      "api" : "https://api.exchangerate.host/latest"
+    }
+  }
+}
